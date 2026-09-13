@@ -1,0 +1,62 @@
+[
+  {
+    "id": "g2",
+    "name": "G2",
+    "domain": "g2.com",
+    "allowedDomains": ["g2.com", "www.g2.com"],
+    "type": "user_review_platform",
+    "enabled": true,
+    "ratingScale": 5,
+    "description": "Peer-to-peer business software review platform."
+  },
+  {
+    "id": "capterra",
+    "name": "Capterra",
+    "domain": "capterra.com",
+    "allowedDomains": ["capterra.com", "www.capterra.com"],
+    "type": "user_review_platform",
+    "enabled": true,
+    "ratingScale": 5,
+    "description": "Gartner-owned business software comparison and review platform."
+  },
+  {
+    "id": "trustpilot",
+    "name": "Trustpilot",
+    "domain": "trustpilot.com",
+    "allowedDomains": ["trustpilot.com", "www.trustpilot.com"],
+    "type": "user_review_platform",
+    "enabled": true,
+    "ratingScale": 5,
+    "description": "Open consumer review platform."
+  },
+  {
+    "id": "producthunt",
+    "name": "Product Hunt",
+    "domain": "producthunt.com",
+    "allowedDomains": ["producthunt.com", "www.producthunt.com"],
+    "type": "user_review_platform",
+    "enabled": true,
+    "ratingScale": 5,
+    "description": "Tech product launch and community rating platform."
+  },
+  {
+    "id": "app_store",
+    "name": "Apple App Store",
+    "domain": "apps.apple.com",
+    "allowedDomains": ["apps.apple.com"],
+    "type": "mobile_app_store",
+    "enabled": true,
+    "ratingScale": 5,
+    "description": "Official iOS app ratings and reviews."
+  },
+  {
+    "id": "google_play",
+    "name": "Google Play Store",
+    "domain": "play.google.com",
+    "allowedDomains": ["play.google.com"],
+    "type": "mobile_app_store",
+    "enabled": true,
+    "ratingScale": 5,
+    "description": "Official Android app ratings and reviews."
+  }
+]
