@@ -616,6 +616,10 @@ if (fs.existsSync(distPath)) {
   });
 }
 
-app.listen(PORT, () => {
-  console.log(`[AI TOOL FINDER Server] Running on http://localhost:${PORT}`);
-});
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`[AI TOOL FINDER Server] Running on http://localhost:${PORT}`);
+  });
+}
+
+export default app;
